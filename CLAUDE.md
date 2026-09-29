@@ -39,7 +39,7 @@ The users are salespeople, many non-technical. The repo is public.
 
 ## Data contracts
 
-`BUILD_PROMPT.md` defines the exact formats for call files, raw JSON, scorecards, and CSVs. Follow them. If you change a format, update the code, the tests, the prompts, and the README together.
+`docs/DATA_FORMATS.md` defines the exact formats for call files, raw JSON, scorecards, and CSVs. Follow them. If you change a format, update the code, the tests, the prompts, the README, and that file together.
 
 ## Commands
 

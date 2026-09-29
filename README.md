@@ -183,8 +183,8 @@ This is not legal advice.
 ## More help
 
 - **[The full guide](docs/GUIDE.md)**: every command, where files live, what each number means, customizing, archiving old calls, and troubleshooting.
+- **[Data formats](docs/DATA_FORMATS.md)**: the exact file formats, for anyone changing the code.
 - **Found a bug?** Open a GitHub issue. Never paste real call data.
-- **Want to build your own version?** `BUILD_PROMPT.md` is the full spec used to build this project with Claude Code.
 
 ## Contributing
 
