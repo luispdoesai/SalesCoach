@@ -1,0 +1,118 @@
+{
+  "call_id": "2026-09-16_YD_Demo",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 5,
+      "timestamp": "00:18",
+      "evidence_quote": "decide together if a next step makes sense. Anything you'd add to that?",
+      "why": "The rep set purpose, time, and outcome, and asked the prospect to add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 2,
+      "timestamp": "00:36",
+      "evidence_quote": "What's the biggest challenge with dispatch right now?",
+      "why": "The rep asked about problems once and moved on after the first answer."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "Nobody discussed what the problem costs."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 4,
+      "timestamp": "00:50",
+      "evidence_quote": "down to thirty minutes a day",
+      "why": "The prospect stated a measurable goal with a number."
+    },
+    {
+      "id": "decision_process",
+      "score": 3,
+      "timestamp": "01:42",
+      "evidence_quote": "Are you the one who makes the call on this?",
+      "why": "The rep asked who decides but not the steps or timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 5,
+      "timestamp": "00:56",
+      "evidence_quote": "Did I miss anything?",
+      "why": "The rep played the situation back in the prospect's words and checked it."
+    },
+    {
+      "id": "value_linking",
+      "score": 5,
+      "timestamp": "01:09",
+      "evidence_quote": "You said our dispatcher spends most of every Friday afternoon",
+      "why": "The rep tied the product directly to the pain the prospect described."
+    },
+    {
+      "id": "objection_handling",
+      "score": 5,
+      "timestamp": "01:59",
+      "evidence_quote": "what would you need to see in it?",
+      "why": "The rep asked a question to understand the objection and checked it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 1,
+      "timestamp": "01:27",
+      "evidence_quote": "if you sign this month I can take twenty percent off",
+      "why": "The rep offered a discount before the prospect pushed back at all."
+    },
+    {
+      "id": "next_steps",
+      "score": 3,
+      "timestamp": "02:12",
+      "evidence_quote": "Let's reconnect sometime next week.",
+      "why": "A next step was agreed with no date or time."
+    }
+  ],
+  "rapport": {
+    "score": 4,
+    "timestamp": "00:03",
+    "evidence_quote": "How did that land?",
+    "why": "The rep opened with a specific, personal question."
+  },
+  "tone_match": {
+    "score": 4,
+    "timestamp": "00:56",
+    "evidence_quote": "Did I miss anything?",
+    "why": "The rep's pace and wording tracked the prospect's."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 90.16,
+    "held_price": null,
+    "conceded_or_discounted": true,
+    "prospect_objected": false,
+    "evidence_quote": "if you sign this month I can take twenty percent off",
+    "why": "The rep offered a discount before the prospect pushed back at all."
+  },
+  "objections": [
+    {
+      "type": "send_info",
+      "timestamp": "01:53",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": true,
+      "why": "The rep asked what the prospect needed before agreeing to send anything."
+    }
+  ],
+  "first_pain_question_sec": 36.21,
+  "top_misses": [
+    "Never got the prospect to put a number on the cost of doing nothing.",
+    "Gave up price without being asked to. See 01:27.",
+    "Pitched before understanding the problem in the prospect's own words. See 00:36."
+  ],
+  "rewrite": {
+    "timestamp": "01:27",
+    "original_quote": "if you sign this month I can take twenty percent off",
+    "better_version": "For a team your size it's twenty-four thousand dollars a year."
+  },
+  "one_thing_to_change": "Ask what doing nothing costs, and wait for a number."
+}

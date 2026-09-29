@@ -1,0 +1,45 @@
+# AI Sales Coach settings.
+# Edit the values after the colons. Keep the indentation. Use spaces, not tabs.
+
+# About you. Used as hints to work out which speaker is you on each call.
+rep:
+  name: ""          # Your first name, for example "Sam". Leave blank if you like.
+  company: ""       # Your company name. Leave blank if you like.
+
+# Gemini model names. Google renames models often.
+# If transcription stops working, check https://ai.google.dev/gemini-api/docs/models
+# and paste the current names here.
+# Checked against Google's docs in September 2026.
+models:
+  transcribe: gemini-3.5-transcribe   # speech to text with speaker labels
+  relabel: gemini-3.5-flash-lite      # small text model: which speaker is the rep
+  tone: gemini-3.8-flash              # audio model: tone hints per minute
+
+transcribe:
+  # Gemini transcribes up to 30 minutes per request with speaker labels and timestamps.
+  # Longer recordings are split into parts with ffmpeg if you have it, or rejected.
+  max_minutes: 30
+  chunk_minutes: 25
+  language_codes: []           # Empty means detect the language. Example: [en-US]
+  relabel_window_sec: 120      # How much of the opening is used to find the rep.
+  tone_window_sec: 60          # Length of each tone window.
+  audio_extensions: [.m4a, .mp3, .wav, .aac, .ogg, .opus, .flac, .webm, .aif, .aiff, .mp4, .mov]
+
+# Best-effort redaction of the call file text. Review the results yourself.
+# Audio still goes to Google before redaction happens.
+redact:
+  enabled: false
+  emails: true
+  phone_numbers: true
+  names: []                    # Example: ["Jordan Diaz", "Acme Robotics"]
+
+# When to suggest setting older calls aside (python coach.py archive).
+# The dashboard suggests it when your calls reach back more than this many days
+# before your latest call. Use 0 to turn the suggestion off.
+archive:
+  suggest_after_days: 90
+
+# Where your files live. You rarely need to change these.
+paths:
+  data_dir: data
+  rubric: rubric/rubric.md

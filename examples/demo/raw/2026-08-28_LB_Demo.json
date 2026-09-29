@@ -1,0 +1,1623 @@
+{
+  "call_id": "2026-08-28_LB_Demo",
+  "audio_file": "2026-08-28_LB_Demo.m4a",
+  "duration_sec": 108.2,
+  "transcribe_model": "synthetic demo data",
+  "utterances": [
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 0.4,
+      "end": 2.43,
+      "text": "Fenwright HVAC, this is Lena."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 3.48,
+      "end": 11.21,
+      "text": "Hi Lena, it's Sam from Vantrellis. I saw your team finished the Harlow Street job last week. How did that land?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 11.64,
+      "end": 16.59,
+      "text": "Ha, it was a sprint, but we got there. Thanks for asking."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 17.35,
+      "end": 22.49,
+      "text": "Today I'll walk you through how we work and then show you the product."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 23.62,
+      "end": 23.98,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 25.04,
+      "end": 31.66,
+      "text": "Most teams we talk to struggle with time tracking, so let me show you how we fix that."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 32.43,
+      "end": 33.63,
+      "text": "Okay, go ahead."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 33.99,
+      "end": 38.01,
+      "text": "What would success look like by the end of the quarter?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 38.5,
+      "end": 44.29,
+      "text": "Get time tracking down to a two hour month end, and zero missed timesheets."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 45.3,
+      "end": 46.73,
+      "text": "Okay, that makes sense."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 47.62,
+      "end": 47.99,
+      "text": "Yeah."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 48.36,
+      "end": 57.56,
+      "text": "Our platform helps teams like yours schedule faster and keep everyone updated. It has mobile alerts, reporting, and integrations with the tools you already use."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 58.46,
+      "end": 61.33,
+      "text": "Okay. What does something like that cost?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 62.01,
+      "end": 71.96,
+      "text": "It's thirty thousand dollars a year. But honestly, if you sign this month I can take twenty percent off, so it's really a lot less than that."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 72.86,
+      "end": 75.73,
+      "text": "Okay. I'll have to think about it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 76.11,
+      "end": 80.13,
+      "text": "Does what you've seen so far make sense for your team?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 81.28,
+      "end": 86.23,
+      "text": "Can you just send me some info and I'll look it over?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 86.81,
+      "end": 92.69,
+      "text": "Well, honestly, the info won't show you much. We're actually cheaper than most of the market."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 93.62,
+      "end": 95.23,
+      "text": "Okay. Send it anyway."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 96.25,
+      "end": 101.39,
+      "text": "I'll send over some info and you can let me know what you think."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 101.83,
+      "end": 102.61,
+      "text": "Sounds good."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 103.51,
+      "end": 105.69,
+      "text": "Thanks Lena, really appreciate the time."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 106.39,
+      "end": 107.17,
+      "text": "Thanks, bye."
+    }
+  ],
+  "words": [
+    {
+      "speaker": "spk_1",
+      "start": 0.4,
+      "end": 0.77,
+      "text": "Fenwright"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 0.82,
+      "end": 1.18,
+      "text": "HVAC,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 1.23,
+      "end": 1.6,
+      "text": "this"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 1.65,
+      "end": 2.02,
+      "text": "is"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 2.07,
+      "end": 2.43,
+      "text": "Lena."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 3.48,
+      "end": 3.8,
+      "text": "Hi"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 3.85,
+      "end": 4.17,
+      "text": "Lena,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 4.22,
+      "end": 4.54,
+      "text": "it's"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 4.59,
+      "end": 4.91,
+      "text": "Sam"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 4.96,
+      "end": 5.29,
+      "text": "from"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 5.34,
+      "end": 5.66,
+      "text": "Vantrellis."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 5.71,
+      "end": 6.03,
+      "text": "I"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 6.08,
+      "end": 6.4,
+      "text": "saw"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 6.45,
+      "end": 6.77,
+      "text": "your"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 6.82,
+      "end": 7.14,
+      "text": "team"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 7.19,
+      "end": 7.51,
+      "text": "finished"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 7.56,
+      "end": 7.88,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 7.93,
+      "end": 8.25,
+      "text": "Harlow"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 8.3,
+      "end": 8.62,
+      "text": "Street"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 8.67,
+      "end": 8.99,
+      "text": "job"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 9.04,
+      "end": 9.36,
+      "text": "last"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 9.41,
+      "end": 9.73,
+      "text": "week."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 9.78,
+      "end": 10.1,
+      "text": "How"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 10.15,
+      "end": 10.47,
+      "text": "did"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 10.52,
+      "end": 10.84,
+      "text": "that"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 10.89,
+      "end": 11.21,
+      "text": "land?"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 11.64,
+      "end": 12.01,
+      "text": "Ha,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 12.06,
+      "end": 12.42,
+      "text": "it"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 12.47,
+      "end": 12.84,
+      "text": "was"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 12.89,
+      "end": 13.26,
+      "text": "a"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 13.31,
+      "end": 13.67,
+      "text": "sprint,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 13.72,
+      "end": 14.09,
+      "text": "but"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 14.14,
+      "end": 14.51,
+      "text": "we"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 14.56,
+      "end": 14.92,
+      "text": "got"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 14.97,
+      "end": 15.34,
+      "text": "there."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 15.39,
+      "end": 15.76,
+      "text": "Thanks"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 15.81,
+      "end": 16.17,
+      "text": "for"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 16.22,
+      "end": 16.59,
+      "text": "asking."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 17.35,
+      "end": 17.67,
+      "text": "Today"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 17.72,
+      "end": 18.04,
+      "text": "I'll"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 18.09,
+      "end": 18.41,
+      "text": "walk"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 18.46,
+      "end": 18.78,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 18.83,
+      "end": 19.15,
+      "text": "through"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 19.2,
+      "end": 19.52,
+      "text": "how"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 19.57,
+      "end": 19.89,
+      "text": "we"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 19.94,
+      "end": 20.26,
+      "text": "work"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 20.31,
+      "end": 20.63,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 20.68,
+      "end": 21.0,
+      "text": "then"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 21.05,
+      "end": 21.38,
+      "text": "show"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 21.43,
+      "end": 21.75,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 21.8,
+      "end": 22.12,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 22.17,
+      "end": 22.49,
+      "text": "product."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 23.62,
+      "end": 23.98,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 25.04,
+      "end": 25.36,
+      "text": "Most"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 25.41,
+      "end": 25.73,
+      "text": "teams"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 25.78,
+      "end": 26.1,
+      "text": "we"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 26.15,
+      "end": 26.47,
+      "text": "talk"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 26.52,
+      "end": 26.84,
+      "text": "to"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 26.89,
+      "end": 27.22,
+      "text": "struggle"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 27.27,
+      "end": 27.59,
+      "text": "with"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 27.64,
+      "end": 27.96,
+      "text": "time"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 28.01,
+      "end": 28.33,
+      "text": "tracking,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 28.38,
+      "end": 28.7,
+      "text": "so"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 28.75,
+      "end": 29.07,
+      "text": "let"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 29.12,
+      "end": 29.44,
+      "text": "me"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 29.49,
+      "end": 29.81,
+      "text": "show"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 29.86,
+      "end": 30.18,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 30.23,
+      "end": 30.55,
+      "text": "how"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 30.6,
+      "end": 30.92,
+      "text": "we"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 30.97,
+      "end": 31.29,
+      "text": "fix"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 31.34,
+      "end": 31.66,
+      "text": "that."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 32.43,
+      "end": 32.8,
+      "text": "Okay,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 32.85,
+      "end": 33.21,
+      "text": "go"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 33.26,
+      "end": 33.63,
+      "text": "ahead."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 33.99,
+      "end": 34.31,
+      "text": "What"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 34.36,
+      "end": 34.68,
+      "text": "would"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 34.73,
+      "end": 35.05,
+      "text": "success"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 35.1,
+      "end": 35.42,
+      "text": "look"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 35.47,
+      "end": 35.79,
+      "text": "like"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 35.84,
+      "end": 36.16,
+      "text": "by"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 36.21,
+      "end": 36.53,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 36.58,
+      "end": 36.9,
+      "text": "end"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 36.95,
+      "end": 37.27,
+      "text": "of"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 37.32,
+      "end": 37.64,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 37.69,
+      "end": 38.01,
+      "text": "quarter?"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 38.5,
+      "end": 38.87,
+      "text": "Get"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 38.92,
+      "end": 39.29,
+      "text": "time"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 39.34,
+      "end": 39.7,
+      "text": "tracking"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 39.75,
+      "end": 40.12,
+      "text": "down"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 40.17,
+      "end": 40.54,
+      "text": "to"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 40.59,
+      "end": 40.95,
+      "text": "a"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 41.0,
+      "end": 41.37,
+      "text": "two"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 41.42,
+      "end": 41.79,
+      "text": "hour"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 41.84,
+      "end": 42.2,
+      "text": "month"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 42.25,
+      "end": 42.62,
+      "text": "end,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 42.67,
+      "end": 43.04,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 43.09,
+      "end": 43.45,
+      "text": "zero"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 43.5,
+      "end": 43.87,
+      "text": "missed"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 43.92,
+      "end": 44.29,
+      "text": "timesheets."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 45.3,
+      "end": 45.62,
+      "text": "Okay,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 45.67,
+      "end": 45.99,
+      "text": "that"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 46.04,
+      "end": 46.36,
+      "text": "makes"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 46.41,
+      "end": 46.73,
+      "text": "sense."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 47.62,
+      "end": 47.99,
+      "text": "Yeah."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 48.36,
+      "end": 48.68,
+      "text": "Our"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 48.73,
+      "end": 49.05,
+      "text": "platform"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 49.1,
+      "end": 49.42,
+      "text": "helps"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 49.47,
+      "end": 49.79,
+      "text": "teams"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 49.84,
+      "end": 50.16,
+      "text": "like"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 50.21,
+      "end": 50.53,
+      "text": "yours"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 50.58,
+      "end": 50.9,
+      "text": "schedule"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 50.95,
+      "end": 51.27,
+      "text": "faster"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 51.32,
+      "end": 51.64,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 51.69,
+      "end": 52.01,
+      "text": "keep"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 52.06,
+      "end": 52.38,
+      "text": "everyone"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 52.43,
+      "end": 52.75,
+      "text": "updated."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 52.8,
+      "end": 53.12,
+      "text": "It"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 53.17,
+      "end": 53.49,
+      "text": "has"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 53.54,
+      "end": 53.86,
+      "text": "mobile"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 53.91,
+      "end": 54.23,
+      "text": "alerts,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 54.28,
+      "end": 54.6,
+      "text": "reporting,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 54.65,
+      "end": 54.97,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 55.02,
+      "end": 55.34,
+      "text": "integrations"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 55.39,
+      "end": 55.71,
+      "text": "with"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 55.76,
+      "end": 56.08,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 56.13,
+      "end": 56.45,
+      "text": "tools"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 56.5,
+      "end": 56.82,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 56.87,
+      "end": 57.19,
+      "text": "already"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 57.24,
+      "end": 57.56,
+      "text": "use."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 58.46,
+      "end": 58.83,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 58.88,
+      "end": 59.25,
+      "text": "What"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 59.3,
+      "end": 59.66,
+      "text": "does"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 59.71,
+      "end": 60.08,
+      "text": "something"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 60.13,
+      "end": 60.5,
+      "text": "like"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 60.55,
+      "end": 60.91,
+      "text": "that"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 60.96,
+      "end": 61.33,
+      "text": "cost?"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 62.01,
+      "end": 62.33,
+      "text": "It's"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 62.38,
+      "end": 62.7,
+      "text": "thirty"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 62.75,
+      "end": 63.07,
+      "text": "thousand"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 63.12,
+      "end": 63.44,
+      "text": "dollars"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 63.49,
+      "end": 63.81,
+      "text": "a"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 63.86,
+      "end": 64.18,
+      "text": "year."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 64.23,
+      "end": 64.55,
+      "text": "But"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 64.6,
+      "end": 64.92,
+      "text": "honestly,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 64.97,
+      "end": 65.29,
+      "text": "if"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 65.34,
+      "end": 65.66,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 65.71,
+      "end": 66.04,
+      "text": "sign"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 66.09,
+      "end": 66.41,
+      "text": "this"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 66.46,
+      "end": 66.78,
+      "text": "month"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 66.83,
+      "end": 67.15,
+      "text": "I"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 67.2,
+      "end": 67.52,
+      "text": "can"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 67.57,
+      "end": 67.89,
+      "text": "take"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 67.94,
+      "end": 68.26,
+      "text": "twenty"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 68.31,
+      "end": 68.63,
+      "text": "percent"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 68.68,
+      "end": 69.0,
+      "text": "off,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 69.05,
+      "end": 69.37,
+      "text": "so"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 69.42,
+      "end": 69.74,
+      "text": "it's"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 69.79,
+      "end": 70.11,
+      "text": "really"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 70.16,
+      "end": 70.48,
+      "text": "a"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 70.53,
+      "end": 70.85,
+      "text": "lot"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 70.9,
+      "end": 71.22,
+      "text": "less"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 71.27,
+      "end": 71.59,
+      "text": "than"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 71.64,
+      "end": 71.96,
+      "text": "that."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 72.86,
+      "end": 73.23,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 73.28,
+      "end": 73.64,
+      "text": "I'll"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 73.69,
+      "end": 74.06,
+      "text": "have"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 74.11,
+      "end": 74.48,
+      "text": "to"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 74.53,
+      "end": 74.89,
+      "text": "think"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 74.94,
+      "end": 75.31,
+      "text": "about"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 75.36,
+      "end": 75.73,
+      "text": "it."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 76.11,
+      "end": 76.43,
+      "text": "Does"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 76.48,
+      "end": 76.8,
+      "text": "what"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 76.85,
+      "end": 77.17,
+      "text": "you've"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 77.22,
+      "end": 77.54,
+      "text": "seen"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 77.59,
+      "end": 77.91,
+      "text": "so"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 77.96,
+      "end": 78.28,
+      "text": "far"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 78.33,
+      "end": 78.65,
+      "text": "make"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 78.7,
+      "end": 79.02,
+      "text": "sense"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 79.07,
+      "end": 79.39,
+      "text": "for"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 79.44,
+      "end": 79.76,
+      "text": "your"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 79.81,
+      "end": 80.13,
+      "text": "team?"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 81.28,
+      "end": 81.65,
+      "text": "Can"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 81.7,
+      "end": 82.07,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 82.12,
+      "end": 82.48,
+      "text": "just"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 82.53,
+      "end": 82.9,
+      "text": "send"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 82.95,
+      "end": 83.32,
+      "text": "me"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 83.37,
+      "end": 83.73,
+      "text": "some"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 83.78,
+      "end": 84.15,
+      "text": "info"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 84.2,
+      "end": 84.57,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 84.62,
+      "end": 84.98,
+      "text": "I'll"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 85.03,
+      "end": 85.4,
+      "text": "look"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 85.45,
+      "end": 85.82,
+      "text": "it"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 85.87,
+      "end": 86.23,
+      "text": "over?"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 86.81,
+      "end": 87.13,
+      "text": "Well,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 87.18,
+      "end": 87.5,
+      "text": "honestly,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 87.55,
+      "end": 87.87,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 87.92,
+      "end": 88.24,
+      "text": "info"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 88.29,
+      "end": 88.61,
+      "text": "won't"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 88.66,
+      "end": 88.98,
+      "text": "show"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 89.03,
+      "end": 89.35,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 89.4,
+      "end": 89.72,
+      "text": "much."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 89.77,
+      "end": 90.1,
+      "text": "We're"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 90.15,
+      "end": 90.47,
+      "text": "actually"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 90.52,
+      "end": 90.84,
+      "text": "cheaper"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 90.89,
+      "end": 91.21,
+      "text": "than"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 91.26,
+      "end": 91.58,
+      "text": "most"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 91.63,
+      "end": 91.95,
+      "text": "of"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 92.0,
+      "end": 92.32,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 92.37,
+      "end": 92.69,
+      "text": "market."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 93.62,
+      "end": 93.98,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 94.03,
+      "end": 94.4,
+      "text": "Send"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 94.45,
+      "end": 94.82,
+      "text": "it"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 94.87,
+      "end": 95.23,
+      "text": "anyway."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 96.25,
+      "end": 96.57,
+      "text": "I'll"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 96.62,
+      "end": 96.95,
+      "text": "send"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 97.0,
+      "end": 97.32,
+      "text": "over"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 97.37,
+      "end": 97.69,
+      "text": "some"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 97.74,
+      "end": 98.06,
+      "text": "info"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 98.11,
+      "end": 98.43,
+      "text": "and"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 98.48,
+      "end": 98.8,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 98.85,
+      "end": 99.17,
+      "text": "can"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 99.22,
+      "end": 99.54,
+      "text": "let"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 99.59,
+      "end": 99.91,
+      "text": "me"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 99.96,
+      "end": 100.28,
+      "text": "know"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 100.33,
+      "end": 100.65,
+      "text": "what"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 100.7,
+      "end": 101.02,
+      "text": "you"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 101.07,
+      "end": 101.39,
+      "text": "think."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 101.83,
+      "end": 102.2,
+      "text": "Sounds"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 102.25,
+      "end": 102.61,
+      "text": "good."
+    },
+    {
+      "speaker": "spk_2",
+      "start": 103.51,
+      "end": 103.83,
+      "text": "Thanks"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 103.88,
+      "end": 104.2,
+      "text": "Lena,"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 104.25,
+      "end": 104.57,
+      "text": "really"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 104.62,
+      "end": 104.94,
+      "text": "appreciate"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 104.99,
+      "end": 105.31,
+      "text": "the"
+    },
+    {
+      "speaker": "spk_2",
+      "start": 105.36,
+      "end": 105.69,
+      "text": "time."
+    },
+    {
+      "speaker": "spk_1",
+      "start": 106.39,
+      "end": 106.75,
+      "text": "Thanks,"
+    },
+    {
+      "speaker": "spk_1",
+      "start": 106.8,
+      "end": 107.17,
+      "text": "bye."
+    }
+  ],
+  "speaker_mapping": {
+    "spk_2": "REP",
+    "spk_1": "PROSPECT"
+  },
+  "mapping_confidence": "high",
+  "mapping_reason": "Synthetic demo call.",
+  "tone_windows": [
+    {
+      "start": 0,
+      "end": 60,
+      "rep_tone": "warm",
+      "prospect_tone": "guarded",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 60,
+      "end": 108,
+      "rep_tone": "warm",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    }
+  ],
+  "chunks": [
+    {
+      "offset_sec": 0.0,
+      "length_sec": null
+    }
+  ],
+  "redacted": false,
+  "created_at": "2026-09-28"
+}

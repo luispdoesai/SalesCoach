@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-07-28_PL_Demo",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 4,
+      "timestamp": "00:17",
+      "evidence_quote": "Today I'll walk you through how we work and then show you the product.",
+      "why": "The rep stated a plan but never asked the prospect to confirm or add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 5,
+      "timestamp": "00:24",
+      "evidence_quote": "Walk me through what filling last-minute cancellations looks like today?",
+      "why": "The rep asked an open question and followed up twice to reach the root cause."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 5,
+      "timestamp": "01:05",
+      "evidence_quote": "roughly four thousand dollars a week in empty chairs",
+      "why": "The prospect named a concrete cost of doing nothing after the rep asked."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 3,
+      "timestamp": "01:17",
+      "evidence_quote": "Just make it easier, really.",
+      "why": "The goal stayed vague, with no number or date."
+    },
+    {
+      "id": "decision_process",
+      "score": 4,
+      "timestamp": "02:00",
+      "evidence_quote": "Who else weighs in on a decision like this",
+      "why": "The rep confirmed who signs, who weighs in, and the timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 3,
+      "timestamp": "01:20",
+      "evidence_quote": "Okay, that makes sense.",
+      "why": "The rep acknowledged answers but never summarized them."
+    },
+    {
+      "id": "value_linking",
+      "score": 5,
+      "timestamp": "01:23",
+      "evidence_quote": "You said our front desk lead spends two or three hours a day on the phone",
+      "why": "The rep tied the product directly to the pain the prospect described."
+    },
+    {
+      "id": "objection_handling",
+      "score": 1,
+      "timestamp": "02:37",
+      "evidence_quote": "We're actually cheaper than most of the market.",
+      "why": "The rep got defensive and argued with the objection."
+    },
+    {
+      "id": "price_handling",
+      "score": 2,
+      "timestamp": "01:51",
+      "evidence_quote": "I could probably do fifteen percent off if that helps.",
+      "why": "The rep stated price clearly, then offered a discount after the first pushback."
+    },
+    {
+      "id": "next_steps",
+      "score": 5,
+      "timestamp": "02:56",
+      "evidence_quote": "Thursday at ten works.",
+      "why": "A specific meeting with a day, time, and attendees was agreed on the call."
+    }
+  ],
+  "rapport": {
+    "score": 4,
+    "timestamp": "00:03",
+    "evidence_quote": "How did that land?",
+    "why": "The rep opened with a specific, personal question."
+  },
+  "tone_match": {
+    "score": 3,
+    "timestamp": "01:20",
+    "evidence_quote": "Okay, that makes sense.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 107.98,
+    "held_price": false,
+    "conceded_or_discounted": true,
+    "prospect_objected": true,
+    "evidence_quote": "I could probably do fifteen percent off if that helps.",
+    "why": "The rep stated price clearly, then offered a discount after the first pushback."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:49",
+      "evidence_quote": "That's steep for us.",
+      "handled": false,
+      "why": "The rep conceded instead of exploring the concern."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "02:32",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep argued instead of asking what the prospect needed."
+    }
+  ],
+  "first_pain_question_sec": 24.47,
+  "top_misses": [
+    "Answered objections without finding the real concern. See 02:37.",
+    "Gave up price without being asked to. See 01:51.",
+    "Left without a measurable goal to anchor the value. See 01:17."
+  ],
+  "rewrite": {
+    "timestamp": "02:37",
+    "original_quote": "We're actually cheaper than most of the market.",
+    "better_version": "Happy to. So I send the right thing, what would you need to see in it?"
+  },
+  "one_thing_to_change": "Answer every objection with a question first."
+}

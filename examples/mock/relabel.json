@@ -1,0 +1,8 @@
+{
+  "speakers": [
+    {"speaker": "spk_1", "role": "PROSPECT"},
+    {"speaker": "spk_2", "role": "REP"}
+  ],
+  "confidence": "high",
+  "reason": "spk_2 says 'this is Sam from Vantrellis', asks to record, and sets the agenda. spk_1 answers the phone."
+}

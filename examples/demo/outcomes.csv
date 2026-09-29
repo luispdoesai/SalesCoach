@@ -1,0 +1,15 @@
+call_id,outcome,deal_value,notes
+2026-07-14_MO_Discovery,won,24000,Signed
+2026-07-21_DC_Demo,lost,,Went quiet after proposal
+2026-07-28_PL_Demo,won,31000,Signed
+2026-08-04_TA_Discovery,lost,,Went quiet after proposal
+2026-08-11_HM_Proposal,won,18000,Signed
+2026-08-14_RI_Demo,lost,,Went quiet after proposal
+2026-08-18_IH_Discovery,stalled,,Waiting on budget
+2026-08-25_KV_Proposal,won,42000,Signed
+2026-08-28_LB_Demo,lost,,Went quiet after proposal
+2026-09-02_AP_Demo,won,15000,Signed
+2026-09-08_BK_Discovery,lost,,Went quiet after proposal
+2026-09-11_OT_Proposal,stalled,,Waiting on budget
+2026-09-16_YD_Demo,won,36000,Signed
+2026-09-22_ES_Discovery,open,,Follow-up booked

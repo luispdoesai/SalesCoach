@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-09-11_OT_Proposal",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 4,
+      "timestamp": "00:08",
+      "evidence_quote": "Today I'll walk you through how we work and then show you the product.",
+      "why": "The rep stated a plan but never asked the prospect to confirm or add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 1,
+      "timestamp": "00:14",
+      "evidence_quote": "Most teams we talk to struggle with time tracking, so let me show you how we fix that.",
+      "why": "The rep asked no questions about problems before pitching."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 3,
+      "timestamp": "00:24",
+      "evidence_quote": "Is that costing you much?",
+      "why": "The rep asked about impact but accepted a vague answer."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 5,
+      "timestamp": "00:34",
+      "evidence_quote": "down to a two hour month end",
+      "why": "The prospect stated a measurable goal with a number."
+    },
+    {
+      "id": "decision_process",
+      "score": 4,
+      "timestamp": "01:21",
+      "evidence_quote": "Who else weighs in on a decision like this",
+      "why": "The rep confirmed who signs, who weighs in, and the timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 1,
+      "timestamp": "00:56",
+      "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+      "why": "The rep cut in and answered a question the prospect had not asked."
+    },
+    {
+      "id": "value_linking",
+      "score": 3,
+      "timestamp": "00:41",
+      "evidence_quote": "helps teams like yours schedule faster",
+      "why": "The rep described the product in general terms."
+    },
+    {
+      "id": "objection_handling",
+      "score": 2,
+      "timestamp": "02:00",
+      "evidence_quote": "Sure, I'll send over our deck and a case study.",
+      "why": "The rep answered the objection but did not check it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 2,
+      "timestamp": "01:11",
+      "evidence_quote": "I could probably do fifteen percent off if that helps.",
+      "why": "The rep stated price clearly, then offered a discount after the first pushback."
+    },
+    {
+      "id": "next_steps",
+      "score": 1,
+      "timestamp": "02:05",
+      "evidence_quote": "I'll send over some info and you can let me know what you think.",
+      "why": "The call ended with only a promise to send information."
+    }
+  ],
+  "rapport": {
+    "score": 2,
+    "timestamp": "00:03",
+    "evidence_quote": "Okay, let's get started.",
+    "why": "The rep skipped any personal connection and went straight to business."
+  },
+  "tone_match": {
+    "score": 2,
+    "timestamp": "00:56",
+    "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 66.83,
+    "held_price": false,
+    "conceded_or_discounted": true,
+    "prospect_objected": true,
+    "evidence_quote": "I could probably do fifteen percent off if that helps.",
+    "why": "The rep stated price clearly, then offered a discount after the first pushback."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:08",
+      "evidence_quote": "That's steep for us.",
+      "handled": false,
+      "why": "The rep conceded instead of exploring the concern."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "01:54",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep agreed without finding out what the prospect actually needed."
+    }
+  ],
+  "first_pain_question_sec": null,
+  "top_misses": [
+    "Pitched before understanding the problem in the prospect's own words. See 00:14.",
+    "Never played the prospect's situation back to confirm it. See 00:56.",
+    "Ended without a dated next step. See 02:05."
+  ],
+  "rewrite": {
+    "timestamp": "00:14",
+    "original_quote": "Most teams we talk to struggle with time tracking, so let me show you how we fix that.",
+    "better_version": "Before I show you anything, walk me through what happened the last time time tracking went wrong."
+  },
+  "one_thing_to_change": "Ask two follow-up questions about the problem before you show anything."
+}

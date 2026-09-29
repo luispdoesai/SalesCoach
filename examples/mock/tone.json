@@ -1,0 +1,9 @@
+{
+  "windows": [
+    {"start": 0, "end": 60, "rep_tone": "warm", "prospect_tone": "guarded", "note": "Short answers at the start. Prospect mentions a hard stop."},
+    {"start": 60, "end": 120, "rep_tone": "curious", "prospect_tone": "engaged", "note": "Prospect opens up about the lost customer."},
+    {"start": 120, "end": 180, "rep_tone": "confident", "prospect_tone": "hesitant", "note": "About four seconds of silence after the price."},
+    {"start": 180, "end": 240, "rep_tone": "calm", "prospect_tone": "guarded", "note": "Prospect deflects to the COO."},
+    {"start": 240, "end": 268, "rep_tone": "firm", "prospect_tone": "neutral", "note": "Prospect agrees to a Tuesday time after a push."}
+  ]
+}

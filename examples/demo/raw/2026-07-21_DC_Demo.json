@@ -1,0 +1,207 @@
+{
+  "call_id": "2026-07-21_DC_Demo",
+  "audio_file": "2026-07-21_DC_Demo.m4a",
+  "duration_sec": 131.6,
+  "transcribe_model": "synthetic demo data",
+  "utterances": [
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 0.4,
+      "end": 2.43,
+      "text": "Orsolo Freight, this is Dev."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 3.51,
+      "end": 6.8,
+      "text": "Hi Dev, Sam from Vantrellis. Okay, let's get started."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 7.81,
+      "end": 8.17,
+      "text": "Sure."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 8.8,
+      "end": 15.05,
+      "text": "Most teams we talk to struggle with dispatch, so let me show you how we fix that."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 15.94,
+      "end": 17.14,
+      "text": "Okay, go ahead."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 18.03,
+      "end": 60.94,
+      "text": "So let me walk you through the platform. There's the scheduling board, which has drag and drop, color coding, and templates. Then there's the mobile app, which works on iPhone and Android, with push alerts and offline mode. We also have reporting, with twelve standard reports and a custom report builder, and we integrate with payroll, accounting, and most CRMs. There's an admin console for permissions, single sign-on, audit logs, and we have a customer success team that does onboarding. We also just launched route optimization and a customer portal, and there's an API if your team wants to build anything custom. Most customers start with the scheduling board and then add modules as they grow."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 62.06,
+      "end": 66.18,
+      "text": "Right, and the thing that worries me is whether my"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 66.93,
+      "end": 70.58,
+      "text": "Right, right, so that's exactly what our dispatch module handles."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 71.36,
+      "end": 74.23,
+      "text": "Okay. What does something like that cost?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 75.23,
+      "end": 77.4,
+      "text": "It's eighteen thousand dollars a year."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 78.35,
+      "end": 79.97,
+      "text": "That's steep for us."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 81.06,
+      "end": 85.82,
+      "text": "I hear you. I could probably do fifteen percent off if that helps."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 86.6,
+      "end": 89.47,
+      "text": "Maybe. I'd have to think about it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 90.04,
+      "end": 93.69,
+      "text": "Are you the one who makes the call on this?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 94.15,
+      "end": 95.77,
+      "text": "Me and Morgan, mostly."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 96.2,
+      "end": 100.22,
+      "text": "Does what you've seen so far make sense for your team?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 101.35,
+      "end": 106.3,
+      "text": "Can you just send me some info and I'll look it over?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 107.08,
+      "end": 110.74,
+      "text": "Sure, I'll send over our deck and a case study."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 111.45,
+      "end": 111.81,
+      "text": "Great."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 112.2,
+      "end": 120.67,
+      "text": "Can we put thirty minutes on the calendar with Morgan for Thursday at ten, so you both see it running with your tools?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 121.47,
+      "end": 125.59,
+      "text": "Thursday at ten works. I'll forward the invite to Morgan."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 126.65,
+      "end": 128.82,
+      "text": "Thanks Dev, really appreciate the time."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 129.8,
+      "end": 130.59,
+      "text": "Thanks, bye."
+    }
+  ],
+  "words": [],
+  "speaker_mapping": {
+    "spk_2": "REP",
+    "spk_1": "PROSPECT"
+  },
+  "mapping_confidence": "high",
+  "mapping_reason": "Synthetic demo call.",
+  "tone_windows": [
+    {
+      "start": 0,
+      "end": 60,
+      "rep_tone": "rushed",
+      "prospect_tone": "guarded",
+      "note": "Rep does most of the talking in this stretch."
+    },
+    {
+      "start": 60,
+      "end": 120,
+      "rep_tone": "brisk",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 120,
+      "end": 131,
+      "rep_tone": "brisk",
+      "prospect_tone": "engaged",
+      "note": "Prospect talks more than the rep here."
+    }
+  ],
+  "chunks": [
+    {
+      "offset_sec": 0.0,
+      "length_sec": null
+    }
+  ],
+  "redacted": false,
+  "created_at": "2026-09-28"
+}

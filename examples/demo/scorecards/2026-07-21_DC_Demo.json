@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-07-21_DC_Demo",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "The rep started pitching with no agenda."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 1,
+      "timestamp": "00:08",
+      "evidence_quote": "Most teams we talk to struggle with dispatch, so let me show you how we fix that.",
+      "why": "The rep asked no questions about problems before pitching."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "Nobody discussed what the problem costs."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "Success was never discussed."
+    },
+    {
+      "id": "decision_process",
+      "score": 3,
+      "timestamp": "01:30",
+      "evidence_quote": "Are you the one who makes the call on this?",
+      "why": "The rep asked who decides but not the steps or timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 1,
+      "timestamp": "01:06",
+      "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+      "why": "The rep cut in and answered a question the prospect had not asked."
+    },
+    {
+      "id": "value_linking",
+      "score": 1,
+      "timestamp": "00:18",
+      "evidence_quote": "let me walk you through the platform",
+      "why": "The rep delivered a long feature list with no link to the prospect's problems."
+    },
+    {
+      "id": "objection_handling",
+      "score": 2,
+      "timestamp": "01:47",
+      "evidence_quote": "Sure, I'll send over our deck and a case study.",
+      "why": "The rep answered the objection but did not check it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 3,
+      "timestamp": "01:21",
+      "evidence_quote": "I could probably do fifteen percent off if that helps.",
+      "why": "The rep stated price clearly, then offered a discount after the first pushback."
+    },
+    {
+      "id": "next_steps",
+      "score": 5,
+      "timestamp": "02:01",
+      "evidence_quote": "Thursday at ten works.",
+      "why": "A specific meeting with a day, time, and attendees was agreed on the call."
+    }
+  ],
+  "rapport": {
+    "score": 2,
+    "timestamp": "00:03",
+    "evidence_quote": "Okay, let's get started.",
+    "why": "The rep skipped any personal connection and went straight to business."
+  },
+  "tone_match": {
+    "score": 2,
+    "timestamp": "01:06",
+    "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 77.4,
+    "held_price": false,
+    "conceded_or_discounted": true,
+    "prospect_objected": true,
+    "evidence_quote": "I could probably do fifteen percent off if that helps.",
+    "why": "The rep stated price clearly, then offered a discount after the first pushback."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:18",
+      "evidence_quote": "That's steep for us.",
+      "handled": false,
+      "why": "The rep conceded instead of exploring the concern."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "01:41",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep agreed without finding out what the prospect actually needed."
+    }
+  ],
+  "first_pain_question_sec": null,
+  "top_misses": [
+    "No upfront agreement on what the call would cover or decide.",
+    "Pitched before understanding the problem in the prospect's own words. See 00:08.",
+    "Never got the prospect to put a number on the cost of doing nothing."
+  ],
+  "rewrite": {
+    "timestamp": "00:08",
+    "original_quote": "Most teams we talk to struggle with dispatch, so let me show you how we fix that.",
+    "better_version": "Before I show you anything, walk me through what happened the last time dispatch went wrong."
+  },
+  "one_thing_to_change": "Open every call with a three-part agenda and ask the prospect what they would add."
+}

@@ -1,0 +1,270 @@
+{
+  "call_id": "2026-09-02_AP_Demo",
+  "audio_file": "2026-09-02_AP_Demo.m4a",
+  "duration_sec": 182.7,
+  "transcribe_model": "synthetic demo data",
+  "utterances": [
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 0.4,
+      "end": 2.43,
+      "text": "Mossgate Physio, this is Arjun."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 2.8,
+      "end": 10.53,
+      "text": "Hi Arjun, it's Sam from Vantrellis. I saw your team finished the Harlow Street job last week. How did that land?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 11.3,
+      "end": 16.25,
+      "text": "Ha, it was a sprint, but we got there. Thanks for asking."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 17.05,
+      "end": 22.19,
+      "text": "Today I'll walk you through how we work and then show you the product."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 23.29,
+      "end": 23.65,
+      "text": "Okay."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 24.44,
+      "end": 27.36,
+      "text": "What's the biggest challenge with cancellations right now?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 28.02,
+      "end": 36.3,
+      "text": "It takes too long. Our front desk lead spends two or three hours a day on the phone on it."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 37.23,
+      "end": 41.99,
+      "text": "If nothing changes over the next six months, what does that cost you?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 42.53,
+      "end": 49.15,
+      "text": "Honestly? Roughly four thousand dollars a week in empty chairs. And people are tired of it."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 49.99,
+      "end": 54.01,
+      "text": "What would success look like by the end of the quarter?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 54.72,
+      "end": 60.51,
+      "text": "Get cancellations down to under five empty slots a week, and zero missed appointments."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 61.42,
+      "end": 73.96,
+      "text": "Let me make sure I have this right. Our front desk lead spends two or three hours a day on the phone on filling last-minute cancellations, and things still slip. Did I miss anything?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 74.46,
+      "end": 76.08,
+      "text": "No, that's it exactly."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 76.53,
+      "end": 94.26,
+      "text": "You said our front desk lead spends two or three hours a day on the phone on filling last-minute cancellations. With us, open slots go out to the waitlist by text automatically. That's the part that would have caught it when we had eleven empty slots last Tuesday."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 94.64,
+      "end": 97.5,
+      "text": "Okay. What does something like that cost?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 98.43,
+      "end": 100.6,
+      "text": "It's thirty-six thousand dollars a year."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 101.65,
+      "end": 103.27,
+      "text": "That's steep for us."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 103.64,
+      "end": 108.41,
+      "text": "I hear you. I could probably do fifteen percent off if that helps."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 109.19,
+      "end": 112.05,
+      "text": "Maybe. I'd have to think about it."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 112.89,
+      "end": 119.51,
+      "text": "Who else weighs in on a decision like this, and how have you bought software like this before?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 120.01,
+      "end": 129.96,
+      "text": "I'd bring in Morgan, our operations director. Morgan signs anything over ten thousand. Last time it took about a month with a trial first."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 130.61,
+      "end": 136.86,
+      "text": "So a trial, then Morgan, about a month. Is there a date you'd want this live by?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 137.36,
+      "end": 139.81,
+      "text": "Before the busy season, so November."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 140.75,
+      "end": 144.77,
+      "text": "Does what you've seen so far make sense for your team?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 145.54,
+      "end": 150.49,
+      "text": "Can you just send me some info and I'll look it over?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 150.87,
+      "end": 156.75,
+      "text": "Happy to. So I send the right thing, what would you need to see in it?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 157.79,
+      "end": 163.57,
+      "text": "Probably proof it works with our current tools, and something I can show Morgan."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 164.18,
+      "end": 172.65,
+      "text": "Can we put thirty minutes on the calendar with Morgan for Thursday at ten, so you both see it running with your tools?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 173.03,
+      "end": 177.14,
+      "text": "Thursday at ten works. I'll forward the invite to Morgan."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "REP",
+      "start": 178.12,
+      "end": 180.3,
+      "text": "Thanks Arjun, really appreciate the time."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "PROSPECT",
+      "start": 180.9,
+      "end": 181.68,
+      "text": "Thanks, bye."
+    }
+  ],
+  "words": [],
+  "speaker_mapping": {
+    "spk_1": "REP",
+    "spk_2": "PROSPECT"
+  },
+  "mapping_confidence": "high",
+  "mapping_reason": "Synthetic demo call.",
+  "tone_windows": [
+    {
+      "start": 0,
+      "end": 60,
+      "rep_tone": "warm",
+      "prospect_tone": "guarded",
+      "note": "Prospect talks more than the rep here."
+    },
+    {
+      "start": 60,
+      "end": 120,
+      "rep_tone": "rushed",
+      "prospect_tone": "flat",
+      "note": "Rep does most of the talking in this stretch."
+    },
+    {
+      "start": 120,
+      "end": 180,
+      "rep_tone": "warm",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 180,
+      "end": 182,
+      "rep_tone": "warm",
+      "prospect_tone": "engaged",
+      "note": "Prospect talks more than the rep here."
+    }
+  ],
+  "chunks": [
+    {
+      "offset_sec": 0.0,
+      "length_sec": null
+    }
+  ],
+  "redacted": false,
+  "created_at": "2026-09-28"
+}

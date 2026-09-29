@@ -1,0 +1,235 @@
+{
+  "call_id": "2026-08-25_KV_Proposal",
+  "audio_file": "2026-08-25_KV_Proposal.m4a",
+  "duration_sec": 134.3,
+  "transcribe_model": "synthetic demo data",
+  "utterances": [
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 0.4,
+      "end": 2.43,
+      "text": "Ashcombe Haulage, this is Kofi."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 3.22,
+      "end": 10.95,
+      "text": "Hi Kofi, it's Sam from Vantrellis. I saw your team finished the Harlow Street job last week. How did that land?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 11.78,
+      "end": 16.73,
+      "text": "Ha, it was a sprint, but we got there. Thanks for asking."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 17.2,
+      "end": 20.11,
+      "text": "What's the biggest challenge with dispatch right now?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 20.88,
+      "end": 26.67,
+      "text": "It takes too long. Our dispatcher spends most of every Friday afternoon on it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 27.51,
+      "end": 32.27,
+      "text": "If nothing changes over the next six months, what does that cost you?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 33.05,
+      "end": 39.25,
+      "text": "Honestly? A customer worth about sixty thousand a year. And people are tired of it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 40.05,
+      "end": 44.08,
+      "text": "What would success look like by the end of the quarter?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 44.83,
+      "end": 49.78,
+      "text": "Get dispatch down to thirty minutes a day, and zero missed pickups."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 50.27,
+      "end": 60.22,
+      "text": "Let me make sure I have this right. Our dispatcher spends most of every Friday afternoon on dispatching drivers, and things still slip. Did I miss anything?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 61.02,
+      "end": 62.63,
+      "text": "No, that's it exactly."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 63.36,
+      "end": 72.57,
+      "text": "Our platform helps teams like yours schedule faster and keep everyone updated. It has mobile alerts, reporting, and integrations with the tools you already use."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 73.59,
+      "end": 76.46,
+      "text": "Okay. What does something like that cost?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 77.28,
+      "end": 81.3,
+      "text": "For a team your size it's twenty-four thousand dollars a year."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 85.85,
+      "end": 88.72,
+      "text": "Hmm. That's more than we budgeted for."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 89.46,
+      "end": 91.63,
+      "text": "What were you comparing it to?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 92.01,
+      "end": 97.8,
+      "text": "I guess I was thinking of the cost of the spreadsheet, which is nothing."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 98.23,
+      "end": 105.21,
+      "text": "Fair. Earlier you mentioned a customer worth about sixty thousand a year. How does the price compare to that?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 106.03,
+      "end": 109.73,
+      "text": "When you put it that way, it's not crazy."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 110.15,
+      "end": 114.18,
+      "text": "Does what you've seen so far make sense for your team?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 114.78,
+      "end": 119.73,
+      "text": "Can you just send me some info and I'll look it over?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 120.18,
+      "end": 123.83,
+      "text": "Sure, I'll send over our deck and a case study."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 124.29,
+      "end": 124.66,
+      "text": "Great."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 125.2,
+      "end": 127.0,
+      "text": "Let's reconnect sometime next week."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 127.53,
+      "end": 128.73,
+      "text": "Sure, sounds good."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 129.36,
+      "end": 131.53,
+      "text": "Thanks Kofi, really appreciate the time."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 132.56,
+      "end": 133.34,
+      "text": "Thanks, bye."
+    }
+  ],
+  "words": [],
+  "speaker_mapping": {
+    "spk_2": "REP",
+    "spk_1": "PROSPECT"
+  },
+  "mapping_confidence": "high",
+  "mapping_reason": "Synthetic demo call.",
+  "tone_windows": [
+    {
+      "start": 0,
+      "end": 60,
+      "rep_tone": "warm",
+      "prospect_tone": "guarded",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 60,
+      "end": 120,
+      "rep_tone": "warm",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 120,
+      "end": 134,
+      "rep_tone": "rushed",
+      "prospect_tone": "flat",
+      "note": "Rep does most of the talking in this stretch."
+    }
+  ],
+  "chunks": [
+    {
+      "offset_sec": 0.0,
+      "length_sec": null
+    }
+  ],
+  "redacted": false,
+  "created_at": "2026-09-28"
+}

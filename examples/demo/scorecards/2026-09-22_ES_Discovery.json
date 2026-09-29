@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-09-22_ES_Discovery",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 4,
+      "timestamp": "00:08",
+      "evidence_quote": "decide together if a next step makes sense. Anything you'd add to that?",
+      "why": "The rep set purpose, time, and outcome, and asked the prospect to add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 5,
+      "timestamp": "00:26",
+      "evidence_quote": "Walk me through what filling last-minute cancellations looks like today?",
+      "why": "The rep asked an open question and followed up twice to reach the root cause."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 3,
+      "timestamp": "01:01",
+      "evidence_quote": "Is that costing you much?",
+      "why": "The rep asked about impact but accepted a vague answer."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 5,
+      "timestamp": "01:11",
+      "evidence_quote": "down to under five empty slots a week",
+      "why": "The prospect stated a measurable goal with a number."
+    },
+    {
+      "id": "decision_process",
+      "score": 4,
+      "timestamp": "01:49",
+      "evidence_quote": "Who else weighs in on a decision like this",
+      "why": "The rep confirmed who signs, who weighs in, and the timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 4,
+      "timestamp": "01:17",
+      "evidence_quote": "Okay, that makes sense.",
+      "why": "The rep acknowledged answers but never summarized them."
+    },
+    {
+      "id": "value_linking",
+      "score": 3,
+      "timestamp": "01:20",
+      "evidence_quote": "helps teams like yours schedule faster",
+      "why": "The rep described the product in general terms."
+    },
+    {
+      "id": "objection_handling",
+      "score": 4,
+      "timestamp": "02:28",
+      "evidence_quote": "Sure, I'll send over our deck and a case study.",
+      "why": "The rep answered the objection but did not check it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 3,
+      "timestamp": "01:40",
+      "evidence_quote": "I could probably do fifteen percent off if that helps.",
+      "why": "The rep stated price clearly, then offered a discount after the first pushback."
+    },
+    {
+      "id": "next_steps",
+      "score": 3,
+      "timestamp": "02:33",
+      "evidence_quote": "Let's reconnect sometime next week.",
+      "why": "A next step was agreed with no date or time."
+    }
+  ],
+  "rapport": {
+    "score": 2,
+    "timestamp": "00:03",
+    "evidence_quote": "Okay, let's get started.",
+    "why": "The rep skipped any personal connection and went straight to business."
+  },
+  "tone_match": {
+    "score": 3,
+    "timestamp": "01:17",
+    "evidence_quote": "Okay, that makes sense.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 96.07,
+    "held_price": false,
+    "conceded_or_discounted": true,
+    "prospect_objected": true,
+    "evidence_quote": "I could probably do fifteen percent off if that helps.",
+    "why": "The rep stated price clearly, then offered a discount after the first pushback."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:37",
+      "evidence_quote": "That's steep for us.",
+      "handled": false,
+      "why": "The rep conceded instead of exploring the concern."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "02:22",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep agreed without finding out what the prospect actually needed."
+    }
+  ],
+  "first_pain_question_sec": 26.63,
+  "top_misses": [
+    "Never got the prospect to put a number on the cost of doing nothing. See 01:01.",
+    "Talked features instead of tying the product to the stated pain. See 01:20.",
+    "Gave up price without being asked to. See 01:40."
+  ],
+  "rewrite": {
+    "timestamp": "01:01",
+    "original_quote": "Is that costing you much?",
+    "better_version": "If nothing changes for the next six months, what does that cost you?"
+  },
+  "one_thing_to_change": "Ask what doing nothing costs, and wait for a number."
+}

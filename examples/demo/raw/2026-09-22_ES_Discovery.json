@@ -1,0 +1,291 @@
+{
+  "call_id": "2026-09-22_ES_Discovery",
+  "audio_file": "2026-09-22_ES_Discovery.m4a",
+  "duration_sec": 162.7,
+  "transcribe_model": "synthetic demo data",
+  "utterances": [
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 0.4,
+      "end": 2.43,
+      "text": "Wrenbury Dental, this is Emeka."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 3.31,
+      "end": 6.6,
+      "text": "Hi Emeka, Sam from Vantrellis. Okay, let's get started."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 7.35,
+      "end": 7.71,
+      "text": "Sure."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 8.53,
+      "end": 21.82,
+      "text": "I was hoping to use our thirty minutes to understand how cancellations works for you today, share what similar teams do, and then decide together if a next step makes sense. Anything you'd add to that?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 22.39,
+      "end": 25.67,
+      "text": "No, that works. Leave some time for pricing."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 26.63,
+      "end": 30.28,
+      "text": "Walk me through what filling last-minute cancellations looks like today?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 31.15,
+      "end": 39.44,
+      "text": "Honestly it's a spreadsheet. Our front desk lead spends two or three hours a day on the phone on it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 40.36,
+      "end": 42.53,
+      "text": "What makes that the hardest part?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 43.0,
+      "end": 48.78,
+      "text": "Things change after it's done. Last time, we had eleven empty slots last Tuesday."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 49.68,
+      "end": 54.08,
+      "text": "And when that happens, what does it look like for you personally?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 54.46,
+      "end": 60.66,
+      "text": "I'm the one on the phone apologizing. It's the part of the job I hate."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 61.77,
+      "end": 63.57,
+      "text": "Is that costing you much?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 63.93,
+      "end": 66.38,
+      "text": "Some, I'd guess. Hard to say."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 67.03,
+      "end": 71.05,
+      "text": "What would success look like by the end of the quarter?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 71.41,
+      "end": 77.2,
+      "text": "Get cancellations down to under five empty slots a week, and zero missed appointments."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 77.6,
+      "end": 79.03,
+      "text": "Okay, that makes sense."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 79.59,
+      "end": 79.95,
+      "text": "Yeah."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 80.38,
+      "end": 89.59,
+      "text": "Our platform helps teams like yours schedule faster and keep everyone updated. It has mobile alerts, reporting, and integrations with the tools you already use."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 90.17,
+      "end": 93.04,
+      "text": "Okay. What does something like that cost?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 93.9,
+      "end": 96.07,
+      "text": "It's thirty thousand dollars a year."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 97.52,
+      "end": 99.14,
+      "text": "That's steep for us."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 100.22,
+      "end": 104.98,
+      "text": "I hear you. I could probably do fifteen percent off if that helps."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 105.57,
+      "end": 108.44,
+      "text": "Maybe. I'd have to think about it."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 109.55,
+      "end": 116.17,
+      "text": "Who else weighs in on a decision like this, and how have you bought software like this before?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 117.22,
+      "end": 127.17,
+      "text": "I'd bring in Morgan, our operations director. Morgan signs anything over ten thousand. Last time it took about a month with a trial first."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 127.92,
+      "end": 134.16,
+      "text": "So a trial, then Morgan, about a month. Is there a date you'd want this live by?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 135.16,
+      "end": 137.61,
+      "text": "Before the busy season, so November."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 138.28,
+      "end": 142.31,
+      "text": "Does what you've seen so far make sense for your team?"
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 142.87,
+      "end": 147.82,
+      "text": "Can you just send me some info and I'll look it over?"
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 148.18,
+      "end": 151.83,
+      "text": "Sure, I'll send over our deck and a case study."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 152.45,
+      "end": 152.82,
+      "text": "Great."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 153.47,
+      "end": 155.27,
+      "text": "Let's reconnect sometime next week."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 155.79,
+      "end": 156.99,
+      "text": "Sure, sounds good."
+    },
+    {
+      "speaker": "spk_2",
+      "role": "REP",
+      "start": 157.79,
+      "end": 159.96,
+      "text": "Thanks Emeka, really appreciate the time."
+    },
+    {
+      "speaker": "spk_1",
+      "role": "PROSPECT",
+      "start": 160.91,
+      "end": 161.7,
+      "text": "Thanks, bye."
+    }
+  ],
+  "words": [],
+  "speaker_mapping": {
+    "spk_2": "REP",
+    "spk_1": "PROSPECT"
+  },
+  "mapping_confidence": "high",
+  "mapping_reason": "Synthetic demo call.",
+  "tone_windows": [
+    {
+      "start": 0,
+      "end": 60,
+      "rep_tone": "brisk",
+      "prospect_tone": "guarded",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 60,
+      "end": 120,
+      "rep_tone": "brisk",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    },
+    {
+      "start": 120,
+      "end": 162,
+      "rep_tone": "brisk",
+      "prospect_tone": "flat",
+      "note": "Even back and forth."
+    }
+  ],
+  "chunks": [
+    {
+      "offset_sec": 0.0,
+      "length_sec": null
+    }
+  ],
+  "redacted": false,
+  "created_at": "2026-09-28"
+}

@@ -1,0 +1,118 @@
+{
+  "call_id": "2026-09-08_BK_Discovery",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "The rep started pitching with no agenda."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 2,
+      "timestamp": "00:17",
+      "evidence_quote": "What's the biggest challenge with crew scheduling right now?",
+      "why": "The rep asked about problems once and moved on after the first answer."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 5,
+      "timestamp": "00:33",
+      "evidence_quote": "around eighteen thousand dollars in overtime last quarter",
+      "why": "The prospect named a concrete cost of doing nothing after the rep asked."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "Success was never discussed."
+    },
+    {
+      "id": "decision_process",
+      "score": 4,
+      "timestamp": "01:18",
+      "evidence_quote": "Are you the one who makes the call on this?",
+      "why": "The rep asked who decides but not the steps or timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 1,
+      "timestamp": "00:55",
+      "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+      "why": "The rep cut in and answered a question the prospect had not asked."
+    },
+    {
+      "id": "value_linking",
+      "score": 3,
+      "timestamp": "00:40",
+      "evidence_quote": "helps teams like yours schedule faster",
+      "why": "The rep described the product in general terms."
+    },
+    {
+      "id": "objection_handling",
+      "score": 3,
+      "timestamp": "01:35",
+      "evidence_quote": "Sure, I'll send over our deck and a case study.",
+      "why": "The rep answered the objection but did not check it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 1,
+      "timestamp": "01:03",
+      "evidence_quote": "if you sign this month I can take twenty percent off",
+      "why": "The rep offered a discount before the prospect pushed back at all."
+    },
+    {
+      "id": "next_steps",
+      "score": 4,
+      "timestamp": "01:41",
+      "evidence_quote": "Let's reconnect sometime next week.",
+      "why": "A next step was agreed with no date or time."
+    }
+  ],
+  "rapport": {
+    "score": 4,
+    "timestamp": "00:02",
+    "evidence_quote": "How did that land?",
+    "why": "The rep opened with a specific, personal question."
+  },
+  "tone_match": {
+    "score": 2,
+    "timestamp": "00:55",
+    "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 65.99,
+    "held_price": null,
+    "conceded_or_discounted": true,
+    "prospect_objected": false,
+    "evidence_quote": "if you sign this month I can take twenty percent off",
+    "why": "The rep offered a discount before the prospect pushed back at all."
+  },
+  "objections": [
+    {
+      "type": "send_info",
+      "timestamp": "01:29",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep agreed without finding out what the prospect actually needed."
+    }
+  ],
+  "first_pain_question_sec": 17.24,
+  "top_misses": [
+    "No upfront agreement on what the call would cover or decide.",
+    "Left without a measurable goal to anchor the value.",
+    "Never played the prospect's situation back to confirm it. See 00:55."
+  ],
+  "rewrite": {
+    "timestamp": "00:55",
+    "original_quote": "Right, right, so that's exactly what our dispatch module handles.",
+    "better_version": "Let me make sure I have this right. Did I miss anything?"
+  },
+  "one_thing_to_change": "Open every call with a three-part agenda and ask the prospect what they would add."
+}

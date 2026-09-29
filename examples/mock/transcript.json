@@ -1,0 +1,31 @@
+{
+  "_note": "Fully synthetic call for --mock mode. Invented people and companies. spk_1 is the prospect (answers the phone). spk_2 is the rep.",
+  "utterances": [
+    {"speaker": "spk_1", "start": 0.4, "end": 2.1, "text": "Orsolo Freight, this is Jordan."},
+    {"speaker": "spk_2", "start": 2.6, "end": 9.8, "text": "Hi Jordan, this is Sam from Vantrellis. Thanks for making time today. Is it okay if I record this call for my notes?"},
+    {"speaker": "spk_1", "start": 10.3, "end": 12.0, "text": "Sure, that's fine."},
+    {"speaker": "spk_2", "start": 12.5, "end": 24.9, "text": "Great. I was hoping to spend about twenty minutes learning how your team schedules drivers today, then show you one thing if it fits. Does that work?"},
+    {"speaker": "spk_1", "start": 25.4, "end": 28.2, "text": "Yeah. I've got a hard stop at the half hour though."},
+    {"speaker": "spk_2", "start": 28.8, "end": 33.5, "text": "Understood. So how are you building the weekly driver schedule right now?"},
+    {"speaker": "spk_1", "start": 34.1, "end": 52.7, "text": "Honestly it's a big spreadsheet. Our dispatcher rebuilds it every Friday and it takes her most of the afternoon. And then something changes Monday and she's redoing it."},
+    {"speaker": "spk_2", "start": 53.2, "end": 57.9, "text": "Most of the afternoon every Friday. What happens when it changes on Monday?"},
+    {"speaker": "spk_1", "start": 58.5, "end": 79.0, "text": "We end up calling drivers one by one. Last month we missed two pickups because the update didn't reach the driver in time. That cost us a customer, actually."},
+    {"speaker": "spk_2", "start": 79.6, "end": 84.1, "text": "You lost a customer over it? How big was that account?"},
+    {"speaker": "spk_1", "start": 84.7, "end": 96.3, "text": "About sixty thousand a year. It wasn't just the missed pickups, but that was the last straw for them."},
+    {"speaker": "spk_2", "start": 96.9, "end": 118.4, "text": "That's painful. So if I'm hearing you right, the Friday rebuild eats your dispatcher's afternoon, the Monday changes don't reach drivers fast enough, and that already cost you a sixty thousand dollar account. Is that fair?"},
+    {"speaker": "spk_1", "start": 119.0, "end": 121.2, "text": "Yeah, that's about right."},
+    {"speaker": "spk_2", "start": 121.8, "end": 150.5, "text": "Okay. What we do is let the dispatcher change the schedule in one place, and every driver gets the update on their phone within a minute, with a confirm button. So she would see who has confirmed and who hasn't."},
+    {"speaker": "spk_1", "start": 151.1, "end": 156.0, "text": "Okay. What does something like that cost?"},
+    {"speaker": "spk_2", "start": 156.6, "end": 163.9, "text": "For a fleet your size it's forty-eight hundred dollars a month."},
+    {"speaker": "spk_1", "start": 168.4, "end": 176.2, "text": "Hmm. That's more than I expected. We're a small team."},
+    {"speaker": "spk_2", "start": 176.8, "end": 183.5, "text": "What were you expecting it to be?"},
+    {"speaker": "spk_1", "start": 184.1, "end": 195.0, "text": "I don't know, maybe half that? I'd have to take this to our COO anyway."},
+    {"speaker": "spk_2", "start": 195.6, "end": 209.8, "text": "That makes sense. Besides the price, what would your COO need to see to say yes?"},
+    {"speaker": "spk_1", "start": 210.4, "end": 224.9, "text": "Probably proof it works with our dispatch software. And that the drivers will actually use it."},
+    {"speaker": "spk_2", "start": 225.5, "end": 239.0, "text": "Would it help if we set up a thirty minute call with your COO next week where I show it running with your dispatch software?"},
+    {"speaker": "spk_1", "start": 239.6, "end": 246.2, "text": "Maybe. Just send me something I can forward first."},
+    {"speaker": "spk_2", "start": 246.8, "end": 256.4, "text": "I can do that. Can we also put a time on the calendar now, say Tuesday at ten, so it doesn't slip?"},
+    {"speaker": "spk_1", "start": 257.0, "end": 262.5, "text": "Tuesday at ten could work. Send the invite."},
+    {"speaker": "spk_2", "start": 263.1, "end": 268.0, "text": "Will do. Thanks Jordan, talk Tuesday."}
+  ]
+}

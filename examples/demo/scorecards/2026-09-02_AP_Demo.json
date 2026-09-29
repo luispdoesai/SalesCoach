@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-09-02_AP_Demo",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 3,
+      "timestamp": "00:17",
+      "evidence_quote": "Today I'll walk you through how we work and then show you the product.",
+      "why": "The rep stated a plan but never asked the prospect to confirm or add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 3,
+      "timestamp": "00:24",
+      "evidence_quote": "What's the biggest challenge with cancellations right now?",
+      "why": "The rep asked about problems once and moved on after the first answer."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 5,
+      "timestamp": "00:42",
+      "evidence_quote": "roughly four thousand dollars a week in empty chairs",
+      "why": "The prospect named a concrete cost of doing nothing after the rep asked."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 5,
+      "timestamp": "00:54",
+      "evidence_quote": "down to under five empty slots a week",
+      "why": "The prospect stated a measurable goal with a number."
+    },
+    {
+      "id": "decision_process",
+      "score": 5,
+      "timestamp": "01:52",
+      "evidence_quote": "Who else weighs in on a decision like this",
+      "why": "The rep confirmed who signs, who weighs in, and the timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 5,
+      "timestamp": "01:01",
+      "evidence_quote": "Did I miss anything?",
+      "why": "The rep played the situation back in the prospect's words and checked it."
+    },
+    {
+      "id": "value_linking",
+      "score": 5,
+      "timestamp": "01:16",
+      "evidence_quote": "You said our front desk lead spends two or three hours a day on the phone",
+      "why": "The rep tied the product directly to the pain the prospect described."
+    },
+    {
+      "id": "objection_handling",
+      "score": 4,
+      "timestamp": "02:30",
+      "evidence_quote": "what would you need to see in it?",
+      "why": "The rep asked a question to understand the objection and checked it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 2,
+      "timestamp": "01:43",
+      "evidence_quote": "I could probably do fifteen percent off if that helps.",
+      "why": "The rep stated price clearly, then offered a discount after the first pushback."
+    },
+    {
+      "id": "next_steps",
+      "score": 5,
+      "timestamp": "02:53",
+      "evidence_quote": "Thursday at ten works.",
+      "why": "A specific meeting with a day, time, and attendees was agreed on the call."
+    }
+  ],
+  "rapport": {
+    "score": 4,
+    "timestamp": "00:02",
+    "evidence_quote": "How did that land?",
+    "why": "The rep opened with a specific, personal question."
+  },
+  "tone_match": {
+    "score": 4,
+    "timestamp": "01:01",
+    "evidence_quote": "Did I miss anything?",
+    "why": "The rep's pace and wording tracked the prospect's."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 100.6,
+    "held_price": false,
+    "conceded_or_discounted": true,
+    "prospect_objected": true,
+    "evidence_quote": "I could probably do fifteen percent off if that helps.",
+    "why": "The rep stated price clearly, then offered a discount after the first pushback."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:41",
+      "evidence_quote": "That's steep for us.",
+      "handled": false,
+      "why": "The rep conceded instead of exploring the concern."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "02:25",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": true,
+      "why": "The rep asked what the prospect needed before agreeing to send anything."
+    }
+  ],
+  "first_pain_question_sec": 24.44,
+  "top_misses": [
+    "Gave up price without being asked to. See 01:43.",
+    "No upfront agreement on what the call would cover or decide. See 00:17.",
+    "Pitched before understanding the problem in the prospect's own words. See 00:24."
+  ],
+  "rewrite": {
+    "timestamp": "01:43",
+    "original_quote": "I could probably do fifteen percent off if that helps.",
+    "better_version": "That's a fair reaction. What were you comparing it to?"
+  },
+  "one_thing_to_change": "State the price, then stay silent until the prospect speaks."
+}

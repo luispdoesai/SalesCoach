@@ -1,0 +1,125 @@
+{
+  "call_id": "2026-08-25_KV_Proposal",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "The rep started pitching with no agenda."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 2,
+      "timestamp": "00:17",
+      "evidence_quote": "What's the biggest challenge with dispatch right now?",
+      "why": "The rep asked about problems once and moved on after the first answer."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 5,
+      "timestamp": "00:33",
+      "evidence_quote": "a customer worth about sixty thousand a year",
+      "why": "The prospect named a concrete cost of doing nothing after the rep asked."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 5,
+      "timestamp": "00:44",
+      "evidence_quote": "down to thirty minutes a day",
+      "why": "The prospect stated a measurable goal with a number."
+    },
+    {
+      "id": "decision_process",
+      "score": 1,
+      "timestamp": null,
+      "evidence_quote": null,
+      "why": "The rep never asked how the decision gets made."
+    },
+    {
+      "id": "active_listening",
+      "score": 5,
+      "timestamp": "00:50",
+      "evidence_quote": "Did I miss anything?",
+      "why": "The rep played the situation back in the prospect's words and checked it."
+    },
+    {
+      "id": "value_linking",
+      "score": 3,
+      "timestamp": "01:03",
+      "evidence_quote": "helps teams like yours schedule faster",
+      "why": "The rep described the product in general terms."
+    },
+    {
+      "id": "objection_handling",
+      "score": 2,
+      "timestamp": "02:00",
+      "evidence_quote": "Sure, I'll send over our deck and a case study.",
+      "why": "The rep answered the objection but did not check it was resolved."
+    },
+    {
+      "id": "price_handling",
+      "score": 4,
+      "timestamp": "01:17",
+      "evidence_quote": "it's twenty-four thousand dollars a year",
+      "why": "The rep stated price, stayed silent, and answered pushback with a question."
+    },
+    {
+      "id": "next_steps",
+      "score": 3,
+      "timestamp": "02:05",
+      "evidence_quote": "Let's reconnect sometime next week.",
+      "why": "A next step was agreed with no date or time."
+    }
+  ],
+  "rapport": {
+    "score": 4,
+    "timestamp": "00:03",
+    "evidence_quote": "How did that land?",
+    "why": "The rep opened with a specific, personal question."
+  },
+  "tone_match": {
+    "score": 4,
+    "timestamp": "00:50",
+    "evidence_quote": "Did I miss anything?",
+    "why": "The rep's pace and wording tracked the prospect's."
+  },
+  "price_handling": {
+    "price_stated": true,
+    "price_stated_end_sec": 81.3,
+    "held_price": true,
+    "conceded_or_discounted": false,
+    "prospect_objected": true,
+    "evidence_quote": "it's twenty-four thousand dollars a year",
+    "why": "The rep stated price, stayed silent, and answered pushback with a question."
+  },
+  "objections": [
+    {
+      "type": "price",
+      "timestamp": "01:25",
+      "evidence_quote": "Hmm. That's more than we budgeted for.",
+      "handled": true,
+      "why": "The rep answered with a question instead of a concession."
+    },
+    {
+      "type": "send_info",
+      "timestamp": "01:54",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep agreed without finding out what the prospect actually needed."
+    }
+  ],
+  "first_pain_question_sec": 17.2,
+  "top_misses": [
+    "No upfront agreement on what the call would cover or decide.",
+    "Does not know who signs or how the decision gets made.",
+    "Pitched before understanding the problem in the prospect's own words. See 00:17."
+  ],
+  "rewrite": {
+    "timestamp": "00:17",
+    "original_quote": "What's the biggest challenge with dispatch right now?",
+    "better_version": "Before I show you anything, walk me through what happened the last time dispatch went wrong."
+  },
+  "one_thing_to_change": "Open every call with a three-part agenda and ask the prospect what they would add."
+}

@@ -1,0 +1,67 @@
+# PRIVACY RULES. Do not remove these.
+# Your calls, keys, and personal rubric must never be committed.
+/data/
+.env
+.env.*
+!.env.example
+# Everything in rubric/ is private except the shareable example.
+rubric/*
+!rubric/rubric.example.md
+*.db
+
+# Audio and video recordings, anywhere in the repo.
+*.m4a
+*.mp3
+*.wav
+*.aac
+*.ogg
+*.oga
+*.opus
+*.flac
+*.wma
+*.aif
+*.aiff
+*.amr
+*.3gp
+*.caf
+*.mp4
+*.m4v
+*.mov
+*.mkv
+*.avi
+*.wmv
+*.webm
+
+# Exports people often save next to the repo by mistake.
+*.vtt
+*.srt
+*.eml
+*.mbox
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Personal Claude Code settings (the shared slash commands in .claude/commands are kept)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Editors and OS
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+.vscode/
+.idea/

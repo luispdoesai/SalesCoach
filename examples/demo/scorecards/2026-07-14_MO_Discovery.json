@@ -1,0 +1,118 @@
+{
+  "call_id": "2026-07-14_MO_Discovery",
+  "scored_at": "2026-09-28",
+  "rubric_scores": [
+    {
+      "id": "agenda_setting",
+      "score": 3,
+      "timestamp": "00:07",
+      "evidence_quote": "Today I'll walk you through how we work and then show you the product.",
+      "why": "The rep stated a plan but never asked the prospect to confirm or add to it."
+    },
+    {
+      "id": "pain_discovery",
+      "score": 1,
+      "timestamp": "00:14",
+      "evidence_quote": "Most teams we talk to struggle with crew scheduling, so let me show you how we fix that.",
+      "why": "The rep asked no questions about problems before pitching."
+    },
+    {
+      "id": "cost_of_inaction",
+      "score": 2,
+      "timestamp": "00:24",
+      "evidence_quote": "Is that costing you much?",
+      "why": "The rep asked about impact but accepted a vague answer."
+    },
+    {
+      "id": "metrics_and_goals",
+      "score": 3,
+      "timestamp": "00:35",
+      "evidence_quote": "Just make it easier, really.",
+      "why": "The goal stayed vague, with no number or date."
+    },
+    {
+      "id": "decision_process",
+      "score": 5,
+      "timestamp": "01:08",
+      "evidence_quote": "Who else weighs in on a decision like this",
+      "why": "The rep confirmed who signs, who weighs in, and the timeline."
+    },
+    {
+      "id": "active_listening",
+      "score": 1,
+      "timestamp": "00:51",
+      "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+      "why": "The rep cut in and answered a question the prospect had not asked."
+    },
+    {
+      "id": "value_linking",
+      "score": 3,
+      "timestamp": "00:37",
+      "evidence_quote": "helps teams like yours schedule faster",
+      "why": "The rep described the product in general terms."
+    },
+    {
+      "id": "objection_handling",
+      "score": 1,
+      "timestamp": "01:47",
+      "evidence_quote": "We're actually cheaper than most of the market.",
+      "why": "The rep got defensive and argued with the objection."
+    },
+    {
+      "id": "price_handling",
+      "score": 1,
+      "timestamp": "00:59",
+      "evidence_quote": "It depends on a lot of things.",
+      "why": "The rep offered a discount before the prospect pushed back at all."
+    },
+    {
+      "id": "next_steps",
+      "score": 5,
+      "timestamp": "02:05",
+      "evidence_quote": "Thursday at ten works.",
+      "why": "A specific meeting with a day, time, and attendees was agreed on the call."
+    }
+  ],
+  "rapport": {
+    "score": 2,
+    "timestamp": "00:03",
+    "evidence_quote": "Okay, let's get started.",
+    "why": "The rep skipped any personal connection and went straight to business."
+  },
+  "tone_match": {
+    "score": 2,
+    "timestamp": "00:51",
+    "evidence_quote": "Right, right, so that's exactly what our dispatch module handles.",
+    "why": "The rep's energy did not match the prospect's guarded mood."
+  },
+  "price_handling": {
+    "price_stated": false,
+    "price_stated_end_sec": null,
+    "held_price": null,
+    "conceded_or_discounted": null,
+    "prospect_objected": null,
+    "evidence_quote": "It depends on a lot of things.",
+    "why": "The prospect asked for price and the rep avoided giving one."
+  },
+  "objections": [
+    {
+      "type": "send_info",
+      "timestamp": "01:41",
+      "evidence_quote": "Can you just send me some info and I'll look it over?",
+      "handled": false,
+      "why": "The rep argued instead of asking what the prospect needed."
+    }
+  ],
+  "first_pain_question_sec": null,
+  "top_misses": [
+    "Pitched before understanding the problem in the prospect's own words. See 00:14.",
+    "Never played the prospect's situation back to confirm it. See 00:51.",
+    "Answered objections without finding the real concern. See 01:47."
+  ],
+  "rewrite": {
+    "timestamp": "00:14",
+    "original_quote": "Most teams we talk to struggle with crew scheduling, so let me show you how we fix that.",
+    "better_version": "Before I show you anything, walk me through what happened the last time crew scheduling went wrong."
+  },
+  "one_thing_to_change": "Ask two follow-up questions about the problem before you show anything."
+}
