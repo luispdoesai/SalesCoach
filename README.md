@@ -2,7 +2,7 @@
 
 **Find out why you win deals and why you lose them, using your own sales calls.**
 
-You record your calls. This tool listens to all of them, grades each one, and tells you in plain words what your winning calls did that your losing calls did not. Then it lets you practice against a tough buyer until you get better.
+You record your calls. This tool listens to all of them, grades each one against your custom scorecard, and tells you in plain words what your winning calls did that your losing calls did not. Then it lets you practice against realistic, tough buyers until you improve.
 
 Free and open source. Built by Luis ([@LuisPDoesAI](https://instagram.com/LuisPDoesAI)).
 
@@ -20,91 +20,38 @@ Here is a real excerpt from the built-in demo (14 made-up calls):
 
 Every call also gets a report card:
 
-- **A score for each skill**, like finding the pain, handling objections, and holding your price
+- **A score for each skill**, like finding the pain, handling objections, and holding your price.
 - **Proof for every score.** Each score quotes the exact words you said. If there is no quote, there is no score.
-- **Your weakest moment, rewritten** the way it should have sounded
-- **The one thing to change** on your next call
+- **Your weakest moment, rewritten** the way it should have sounded.
+- **The one thing to change** on your next call.
 
 ---
 
-## Two ways to use it
+## How it works (The method)
 
-| | **Option 1: Copy and paste** | **Option 2: Full tool** |
-|---|---|---|
-| Time to start | 10 minutes | About 30 minutes, once |
-| Tech skill | None | Comfortable following steps |
-| What you need | A Claude account and call transcripts | Claude Code, a free Google AI key, and this project |
-| Best for | Trying it on a few calls | Every call, automatically |
+AI Sales Coach combines deterministic code with AI judgment so you get facts, not hallucinations:
 
-**Not sure? Start with Option 1.**
-
----
-
-## Option 1: Copy and paste (no setup)
-
-You only need [Claude](https://claude.ai) and a transcript of your call. Zoom, Google Meet, Teams, Fathom, Otter, and Fireflies can all give you one.
-
-**Step 1. Build your scorecard.** Paste this into Claude:
-
-```
-I sell [product] to [type of buyer]. Before you build anything, ask me 5 questions
-about my sales process: deal size, sales cycle length, who I usually talk to, my
-biggest struggle, and how I usually lose deals.
-
-Then build a call scoring rubric with 8 to 10 behaviors I can point to in a
-transcript. For each one, define what a 1, a 3, and a 5 looks like. Include one
-behavior for handling price. Every score must require a direct quote as evidence.
-```
-
-Answer its questions. Cross out anything that does not fit how you sell. Save the result.
-
-**Step 2. Grade a call.** Paste your scorecard and one transcript, then:
-
-```
-The sales rep is me. Grade me harshly. For each item on my scorecard, give a
-score from 1 to 5, the timestamp, a word-for-word quote as proof, and one sentence
-on why. No quote, no score above 1.
-
-Then give me:
-1. My top 3 misses
-2. Did I state my price? Did I hold it?
-3. My weakest moment, rewritten the way it should have sounded
-4. The ONE thing to change on my next call
-```
-
-**Step 3. Find your patterns (after 10 or more calls).** Paste your graded calls and say which ones you won and lost:
-
-```
-I won these calls: [list]. I lost these: [list]. What did my wins do that my
-losses did not? Rank my top 3 gaps by how much money they likely cost me. Quote
-real lines. Tell me how sure you are, given how few calls this is.
-```
-
-**Step 4. Practice.**
-
-```
-Play a skeptical CFO who keeps saying "just send me the info." Be hard to
-convince. Do not help me. When I type "end," grade me on my scorecard and tell me
-which objection I handled worst.
-```
-
-Repeat the same buyer until your score goes up.
+1. **You drop in your call recordings.** Audio files from Zoom, Google Meet, Teams, Fathom, or your phone dialer.
+2. **Deterministic code measures the facts.** The tool transcribes the call, separates you from the buyer, and measures exact numbers: your talk ratio, question counts, and how long you stayed silent after stating your price.
+3. **AI grades each call against your scorecard.** Claude grades your skills, requiring word-for-word quotes from the transcript as proof for every score.
+4. **Win vs. loss comparison.** Code crunches the numbers across all your calls and compares your wins to your losses.
+5. **Interactive dashboard.** Open one local webpage to review your findings, charts, scorecards, email histories, and full transcripts.
 
 ---
 
-## Option 2: The full tool
+## What you need
 
-Drop in your call recordings. Get a report card for every call, real numbers on how you talk, and one page that explains your wins and losses.
+You only need three free or standard tools:
 
-### What you need
+1. **Python** (version 3.10 or newer): runs the background scripts and math. [Download it here](https://www.python.org/downloads/).
+2. **Claude Code**: the AI assistant that runs in your terminal and grades your calls. [Get it here](https://claude.com/product/claude-code).
+3. **Google AI key**: free to start, converts your call audio into text. [Get one here](https://aistudio.google.com/).
 
-1. **Python**, a free program that runs this tool. [Download it here](https://www.python.org/downloads/) (version 3.10 or newer).
-2. **Claude Code**, the Claude app that works with files on your computer. [Get it here](https://claude.com/product/claude-code).
-3. **A Google AI key** (free to start). It turns your audio into text. [Get one here](https://aistudio.google.com/).
+---
 
-### Set it up (one time)
+## One-time setup
 
-Open the **Terminal** app (on a Mac, press Cmd + Space and type "Terminal"). Copy and paste these lines one at a time, pressing Enter after each:
+Open your **Terminal** app (on a Mac, press Cmd + Space and type "Terminal"; on Windows, open PowerShell). Copy and paste these lines one at a time, pressing Enter after each:
 
 ```bash
 git clone https://github.com/luispdoesai/SalesCoach.git
@@ -115,49 +62,151 @@ python -m pip install -r requirements.txt
 python coach.py init
 ```
 
-On Windows, use `python` instead of `python3`, and `.venv\Scripts\activate` instead of the `source` line.
+*Note for Windows users:* use `python` instead of `python3`, and `.venv\Scripts\activate` instead of the `source` line.
 
-Now open the new file called `.env` in the `SalesCoach` folder and paste your Google key after the equals sign:
+Next, open the `.env` file created in your `SalesCoach` folder and paste your Google key:
 
 ```
 GEMINI_API_KEY=paste-your-key-here
 ```
 
-Check that everything works:
+Check that everything is set up correctly:
 
 ```bash
 python coach.py doctor
 ```
 
-### See it work first (2 minutes, no key needed)
+### Try the 2-minute demo first (no key needed)
+
+Want to see the dashboard with synthetic sample calls before using your own?
 
 ```bash
 python coach.py demo
 ```
 
-Then double-click **`Open-Dashboard.html`** in the project folder, or open `data/demo/reports/dashboard.html`. That is what your own results will look like.
+Then double-click **`Open-Dashboard.html`** in the project folder (or run `python coach.py dashboard --open`). That is what your own results will look like.
 
-### Use it on your calls
+---
 
-Open Claude Code inside the `SalesCoach` folder. Then:
+## How to use it on your calls
 
-| Step | Do this | What happens |
+Sales Coach is driven by Claude Code and a few simple terminal commands.
+
+To start, open your terminal inside the `SalesCoach` folder and launch Claude Code:
+
+```bash
+claude
+```
+
+Follow these steps:
+
+### Step 1: Build your scorecard
+
+Claude interviews you about how you sell (your deal size, sales cycle, who you talk to, and common objections) and builds your custom rubric in `rubric/rubric.md`.
+
+- **Command in Claude Code:** `/coach-rubric`
+- **Or paste this prompt:**
+  ```
+  Read CLAUDE.md and prompts/01_build_rubric.md. Interview me about how I sell, then write my sales rubric.
+  ```
+
+Answer its questions. Review the draft behaviors it suggests, tell it what to tweak or cut, and it will save your scorecard.
+
+### Step 2: Add your calls and outcomes
+
+1. Drop your audio or video recordings into the `data/inbox/` folder.
+   Name them with the date, buyer initials, and call stage, for example:
+   `2026-09-28_JD_Discovery.m4a`
+2. Open `data/outcomes.csv` and mark each call as `won`, `lost`, `stalled`, or `open`. (You can also add deal value and notes).
+3. (Optional) Add buyer contact info to `data/contacts.csv`.
+
+### Step 3: Transcribe your calls
+
+In your terminal, run:
+
+```bash
+python coach.py transcribe
+```
+
+This turns your audio into text, works out who the sales rep is, and notes tone shifts. Once finished, audio files are safely moved to `data/processed/`.
+
+### Step 4: Add email context (optional)
+
+If you use Gmail or have exported emails, this step reads past emails with the buyer and attaches a timeline to the call.
+
+- **Command in Claude Code:** `/coach-emails`
+- **Or paste this prompt:**
+  ```
+  Read prompts/03_email_context.md and pull email context for my calls. Read-only.
+  ```
+
+### Step 5: Grade your calls
+
+Claude reads each transcript, matches it against your rubric, and writes a detailed scorecard JSON in `data/scorecards/`. Every score requires an exact verbatim quote from the transcript as proof.
+
+- **Command in Claude Code:** `/coach-score`
+- **Or paste this prompt:**
+  ```
+  Read prompts/04_score_call.md and score my calls against my rubric.
+  ```
+
+### Step 6: Crunch the numbers
+
+In your terminal, run:
+
+```bash
+python coach.py analyze
+```
+
+This command verifies every quote against the audio timestamps, calculates your talk ratios and silence metrics, compares wins against losses, and creates your charts.
+
+### Step 7: Generate your findings report
+
+Claude analyzes the numbers and writes `Findings.md`, highlighting what your winning calls did differently, where lost deals turned, and the single skill to focus on for your next 5 calls.
+
+- **Command in Claude Code:** `/coach-findings`
+- **Or paste this prompt:**
+  ```
+  Read prompts/05_findings.md and write Findings.md from the latest analysis.
+  ```
+
+### Step 8: View your dashboard
+
+Double-click **`Open-Dashboard.html`** in your project folder, or run:
+
+```bash
+python coach.py dashboard --open
+```
+
+Your browser opens an interactive dashboard that shows your findings, won vs. lost charts, and every call's scores, quotes, and full transcript.
+
+### Step 9: Practice against tough buyers
+
+Drill your weakest skills against realistic simulated buyer personas (such as a skeptical CFO or price shopper).
+
+- **Command in Claude Code:** `/coach-practice`
+- **Or paste this prompt:**
+  ```
+  Read prompts/06_roleplay.md and run a practice session with a buyer persona.
+  ```
+
+---
+
+## Quick command cheat sheet
+
+| Task | What to run or type | Where |
 |---|---|---|
-| 1 | Type `/coach-rubric` | Claude asks how you sell and builds your personal scorecard |
-| 2 | Put recordings in `data/inbox/` | Name them like `2026-09-28_JD_Discovery.m4a` (date, buyer's initials, call type) |
-| 3 | Fill in `data/outcomes.csv` and `data/contacts.csv` | Mark each call `won`, `lost`, `stalled`, or `open`, and say who it was with. This is how it learns what wins |
-| 4 | Run `python coach.py transcribe` | Turns audio into text and figures out which speaker is you |
-| 5 | Type `/coach-emails` (optional) | Reads your Gmail threads with each buyer for context. Read-only |
-| 6 | Type `/coach-score` | Grades every call, with a quote as proof for each score |
-| 7 | Run `python coach.py analyze` | Crunches the numbers and builds your charts |
-| 8 | Type `/coach-findings` | Writes the page that explains your wins and losses |
-| 9 | Type `/coach-practice` | Roleplay against a tough buyer, then get graded |
+| Start Claude Code | `claude` | Terminal |
+| Build scorecard | `/coach-rubric` | Claude Code |
+| Transcribe audio | `python coach.py transcribe` | Terminal |
+| Add email context | `/coach-emails` | Claude Code |
+| Grade calls | `/coach-score` | Claude Code |
+| Calculate stats | `python coach.py analyze` | Terminal |
+| Write findings | `/coach-findings` | Claude Code |
+| View dashboard | Double-click `Open-Dashboard.html` | Browser |
+| Practice roleplay | `/coach-practice` | Claude Code |
 
-Double-click **`Open-Dashboard.html`** any time to see everything on one page. It tells you what is done and what to do next.
-
-New calls? Drop them in `data/inbox/` and repeat steps 4 to 8. Finished calls are skipped automatically.
-
-Stuck? Just ask Claude Code in plain words, like "why did my transcribe fail?" or "archive my calls from before September."
+When you get new calls, just drop them into `data/inbox/` and repeat steps 3 through 7. Finished calls are automatically skipped.
 
 ---
 
