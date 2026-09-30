@@ -4,23 +4,98 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="refresh" content="0; url=data/reports/dashboard.html">
-<title>Open Dashboard</title>
+<title>Open AI Sales Coach Dashboard</title>
 <style>
-  :root{color-scheme:light dark}
-  body{margin:0;padding:48px 20px;font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;background:#f7f6f2;color:#0b0b0b}
-  @media (prefers-color-scheme:dark){body{background:#0f0f0e;color:#fff}}
-  main{max-width:36rem;margin:0 auto}
-  code{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.9em}
-  a{color:#2a78d6}
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0;
+    padding: 48px 20px;
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: #f7f6f2;
+    color: #0b0b0b;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0f0f0e; color: #fff; }
+  }
+  main {
+    max-width: 36rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.7);
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  }
+  @media (prefers-color-scheme: dark) {
+    main { background: rgba(26, 26, 25, 0.7); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); }
+  }
+  h1 { margin-top: 0; font-size: 1.5rem; }
+  p { color: inherit; line-height: 1.6; }
+  .notice {
+    font-size: 0.9rem;
+    padding: 12px 16px;
+    background: rgba(42, 120, 214, 0.1);
+    border-left: 4px solid #2a78d6;
+    border-radius: 4px;
+    margin: 20px 0;
+  }
+  .btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 24px 0;
+  }
+  .btn {
+    display: block;
+    text-align: center;
+    padding: 12px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.1s, opacity 0.1s;
+  }
+  .btn-primary {
+    background: #2a78d6;
+    color: #fff;
+  }
+  .btn-secondary {
+    background: rgba(120, 120, 120, 0.15);
+    color: inherit;
+  }
+  .btn:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+  }
+  code {
+    font-family: ui-monospace, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+    background: rgba(120, 120, 120, 0.12);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
 </style>
 </head>
 <body>
 <main>
   <!-- A shortcut only. It holds no call data, so it is safe to commit. -->
-  <h1>Opening your dashboard...</h1>
-  <p>If nothing opens, <a href="data/reports/dashboard.html">click here</a>.</p>
-  <p>If that link does not work either, the dashboard has not been built yet. In a terminal in this folder, run <code>python coach.py analyze</code>, then open this file again.</p>
-  <p>Want to see an example first? Run <code>python coach.py demo</code> and open <a href="data/demo/reports/dashboard.html">the demo dashboard</a>.</p>
+  <h1>Opening AI Sales Coach Dashboard</h1>
+  
+  <p class="notice">
+    <strong>Browser note:</strong> Modern browsers often block automatic redirects between local files (<code>file://</code>) for security. If the page did not redirect automatically, click a button below:
+  </p>
+
+  <div class="btn-group">
+    <a class="btn btn-primary" href="data/reports/dashboard.html">Open Live Dashboard</a>
+    <a class="btn btn-secondary" href="data/demo/reports/dashboard.html">Open Demo Dashboard (14 Sample Calls)</a>
+  </div>
+
+  <p>
+    <strong>Direct terminal command:</strong> You can also run:
+    <br>
+    <code>python coach.py dashboard --open</code>
+  </p>
+  <p>
+    If the live dashboard is empty or missing, run <code>python coach.py analyze</code> in your terminal first.
+  </p>
 </main>
 </body>
 </html>
