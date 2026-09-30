@@ -84,7 +84,7 @@ Want to see the dashboard with synthetic sample calls before using your own?
 python coach.py demo
 ```
 
-Then double-click **`Open-Dashboard.html`** in the project folder (or run `python coach.py dashboard --open`). That is what your own results will look like.
+Then double-click **`Open-Dashboard.html`** in the project folder (or run `python coach.py dashboard --open --data-dir data/demo`). That is what your own results will look like.
 
 ---
 
